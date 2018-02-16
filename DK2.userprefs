@@ -1,0 +1,20 @@
+﻿<Properties StartupItem="DK2.CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Mover.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Controller2D.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Player.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Ladder.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\RockCollision.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\KillZones.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Hammer.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Scoring.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Spawner.cs" Line="16" Column="9" />
+      <File FileName="Assets\Scripts\Mover.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

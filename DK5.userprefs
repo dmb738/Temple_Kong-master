@@ -1,0 +1,18 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Spawner2.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Scoring.cs" Line="24" Column="46" />
+      <File FileName="Assets\Scripts\RockCollision.cs" Line="28" Column="4" />
+      <File FileName="Assets\Scripts\MainMenu.cs" Line="35" Column="35" />
+      <File FileName="Assets\Scripts\Player.cs" Line="66" Column="52" />
+      <File FileName="Assets\Scripts\LivesManager.cs" Line="24" Column="2" />
+      <File FileName="Assets\Scripts\PickUps.cs" Line="12" Column="24" />
+      <File FileName="Assets\Scripts\Spawner2.cs" Line="23" Column="24" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,21 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PickUps.cs">
+    <Files>
+      <File FileName="Assets\Scripts\spikeCollider.cs" Line="39" Column="1" />
+      <File FileName="Assets\Scripts\RockCollision.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Spawner.cs" Line="36" Column="48" />
+      <File FileName="Assets\Scripts\conveyor2.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\KillZones.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SpikeCollider2.cs" Line="53" Column="39" />
+      <File FileName="Assets\Scripts\MovingLadders.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Hammer.cs" Line="31" Column="14" />
+      <File FileName="Assets\Scripts\Player.cs" Line="193" Column="79" />
+      <File FileName="Assets\Scripts\PickUps.cs" Line="13" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

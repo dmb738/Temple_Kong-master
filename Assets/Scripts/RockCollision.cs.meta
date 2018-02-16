@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 3d9b63c766c5b9c4792dfe93e182fb91
+timeCreated: 1518749248
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - collider: {instanceID: 0}
+  - player: {instanceID: 0}
+  - score: {instanceID: 0}
+  - rockSound: {fileID: 8300000, guid: f470ce2d4b191ce4686326c82f771730, type: 3}
+  - SoundSource: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

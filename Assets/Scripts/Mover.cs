@@ -15,14 +15,14 @@ public class Mover : MonoBehaviour
 	private int randomInt	   = 0;
     private int score;
 
-    public BoxCollider2D Collider;
+    //public BoxCollider2D Collider;
 
     /**
 	 * Initialisation
 	 * 
 	 */
     void Start () {
-        Collider = GetComponent<BoxCollider2D>();
+        //Collider = GetComponent<BoxCollider2D>();
         if (wayPoints.Length > 0) {
 			currentWaypoint = wayPoints[0];
 		}
@@ -57,12 +57,12 @@ public class Mover : MonoBehaviour
 		isWaiting = !isWaiting;
 	}
 
-    private void OnTriggerEnter2D(Collider2D Collider)
-    {
-        score = PlayerPrefs.GetInt("PlayerScore");
-        score += 100;
-        PlayerPrefs.SetInt("PlayerScore", score);
-    }
+    //private void OnTriggerEnter2D(Collider2D Collider)
+    //{
+    //    score = PlayerPrefs.GetInt("PlayerScore");
+    //    score += 100;
+    //    PlayerPrefs.SetInt("PlayerScore", score);
+    //}
 	
 	/**
 	 * Move the object towards the selected waypoint
@@ -112,11 +112,11 @@ public class Mover : MonoBehaviour
 	}
 
 	void RotateLeft() {
-        GetComponent<BoxCollider2D>().transform.Rotate(Vector3.forward * 10);
+        //GetComponent<BoxCollider2D>().transform.Rotate(Vector3.forward * 10);
         transform.Rotate (Vector3.forward * -10);
 	 }
 	void RotateRight() {
-        GetComponent<BoxCollider2D>().transform.Rotate(Vector3.forward * -10);
+        //GetComponent<BoxCollider2D>().transform.Rotate(Vector3.forward * -10);
         transform.Rotate (Vector3.forward * 10);
 	 }
 

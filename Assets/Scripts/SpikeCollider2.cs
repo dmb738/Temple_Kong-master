@@ -9,21 +9,47 @@ public class SpikeCollider2 : MonoBehaviour {
 	public AudioClip rockSound;
 	public AudioSource SoundSource;
 	public GameObject Despawn;
-	// Use this for initialization
-	void Start () {
+    public GameObject DespawnLeft;
+    public GameObject DespawnRight;
+    public GameObject DespawnLeft2;
+    public GameObject DespawnRight2;
+    // Use this for initialization
+    void Start () {
 		collider = GetComponent<BoxCollider2D> ();
 		player = GameObject.Find("Player");
 		Despawn = GameObject.Find("SpikeyDespawn");
-		SoundSource = GetComponent<AudioSource> ();
+        DespawnLeft = GameObject.Find("SpikeyDespawnLeft");
+        DespawnRight = GameObject.Find("SpikeyDespawnRight");
+        DespawnLeft2 = GameObject.Find("SpikeyDespawnLeft2");
+        DespawnRight2 = GameObject.Find("SpikeyDespawnRight2");
+        SoundSource = GetComponent<AudioSource> ();
 	}
 
 	// Update is called once per frame
 	void Update () {
 		conveyor ();
-		if (transform.position.x <= Despawn.transform.position.x && transform.position.y == Despawn.transform.position.y) {
-				Destroy (gameObject);
-			}
-	}
+        if (transform.position.x <= Despawn.transform.position.x && transform.position.y == Despawn.transform.position.y)
+        {
+            Destroy(gameObject);
+        }
+        if (transform.position.x <= DespawnLeft.transform.position.x && transform.position.y == DespawnLeft.transform.position.y)
+        {
+            Destroy(gameObject);
+        }
+        if (transform.position.x >= DespawnRight.transform.position.x && transform.position.y == DespawnRight.transform.position.y)
+        {
+            Destroy(gameObject);
+        }
+
+        if (transform.position.x <= DespawnLeft2.transform.position.x && transform.position.y == DespawnLeft2.transform.position.y)
+        {
+            Destroy(gameObject);
+        }
+        if (transform.position.x >= DespawnRight2.transform.position.x && transform.position.y == DespawnRight2.transform.position.y)
+        {
+            Destroy(gameObject);
+        }
+    }
 	void OnTriggerEnter2D(Collider2D collider){
 		SoundSource.PlayOneShot (rockSound);
 		if (player.GetComponent<Player> ().playerState != Player.PlatformerState.Hammer) {
